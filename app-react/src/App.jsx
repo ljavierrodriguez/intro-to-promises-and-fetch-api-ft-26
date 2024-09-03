@@ -12,7 +12,7 @@ const App = () => {
     }, [])
 
     const obtenerUsuarios = () => {
-        fetch('https://jsonplaceholder.typicode.com/userss', {
+        fetch('https://jsonplaceholder.typicode.com/users', {
             method: 'GET', /* GET, POST, PUT, DELETE => CRUD */
             //body: info, /* POST, PUT */
             headers: {
