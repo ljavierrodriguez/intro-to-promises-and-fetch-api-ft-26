@@ -30,6 +30,7 @@ const App = () => {
             })
             .then((responseJson) => {
                 console.log(responseJson)
+                setError(null)
                 setUsers(responseJson)
                 //responseJson.map((user) => console.log(user.name))
             })
